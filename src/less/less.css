@@ -1,0 +1,24 @@
+/*
+ * 基础配置
+*/
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+body {
+  margin: 0;
+  background-color:rgb(77, 77, 185);
+}
+div,ul,li,p,h3{
+  margin:0;
+  padding:0;
+}
+ul{
+  list-style: none;
+}
+li{
+ list-style-type: none;
+}
+/*********main********/

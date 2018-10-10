@@ -1,0 +1,33 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": "plugin:react/recommended",
+    "parserOptions": {
+        "ecmaVersion": 8,//ECMAScript syntax 最新版本
+        "ecmaFeatures": {
+            "impliedStrict": true,
+            "experimentalObjectRestSpread": true,
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "semi": [
+            "error",
+            "always"
+        ],              
+        "no-debugger": "error",//不允许用debugger这个关键字
+        "no-dupe-args": "error",//不允许函数参数同名
+        "no-caller": "error",//不允许用callee等，es6严格模式不支持
+        "no-unmodified-loop-condition": "error",
+        "no-with": "error",//不允许用with来声明
+        "no-catch-shadow": "error"
+    }
+}

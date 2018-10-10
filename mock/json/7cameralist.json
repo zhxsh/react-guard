@@ -1,0 +1,92 @@
+{
+    "data": [
+        {
+            "stationId": 49,
+            "stationName": "平湖所(二三类)",
+            "cameras": [
+                {
+                    "id": 667,
+                    "displayName": "平湖所LW020益民旅馆人脸",
+                    "geoString": null
+                },
+                {
+                    "id": 668,
+                    "displayName": "平湖所LW023格林联盟酒店人脸",
+                    "geoString": null
+                }
+            ]
+        },
+        {
+            "stationId": 4,
+            "stationName": "爱联所(二三类)",
+            "cameras": [
+                {
+                    "id": 712,
+                    "displayName": "爱联所LW009好运旅馆人脸",
+                    "geoString": null
+                },
+                {
+                    "id": 715,
+                    "displayName": "爱联所LW037明来发酒店人脸",
+                    "geoString": null
+                },
+                {
+                    "id": 716,
+                    "displayName": "爱联所LW040楚来红宾馆人脸",
+                    "geoString": null
+                }
+            ]
+        },
+        {
+            "stationId": 10,
+            "stationName": "宝岗所(二三类)",
+            "cameras": [
+                {
+                    "id": 747,
+                    "displayName": "宝岗所LW010港龙旅店人脸",
+                    "geoString": null
+                },
+                {
+                    "id": 748,
+                    "displayName": "宝岗所LW017华丰旅馆人脸",
+                    "geoString": null
+                }
+            ]
+        },
+        {
+            "stationId": 58,
+            "stationName": "沙湾所(二三类)",
+            "cameras": [
+                {
+                    "id": 750,
+                    "displayName": "沙湾所lw005新阁旅馆人脸",
+                    "geoString": null
+                }
+            ]
+        },
+        {
+            "stationId": 61,
+            "stationName": "盛平所(二三类)",
+            "cameras": [
+                {
+                    "id": 737,
+                    "displayName": "盛平所LW018东港酒店人脸",
+                    "geoString": null
+                },
+                {
+                    "id": 738,
+                    "displayName": "盛平所LW033鑫成旅馆人脸",
+                    "geoString": null
+                },
+                {
+                    "id": 743,
+                    "displayName": "盛平所LW077心万丽休闲人脸",
+                    "geoString": null
+                }
+            ]
+        }
+    ],
+    "errCode": 0,
+    "maxPage": 0,
+    "total": 0
+}
