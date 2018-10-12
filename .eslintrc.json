@@ -1,6 +1,6 @@
 {
     "env": {
-        "browser": true,
+        "browser": false,
         "commonjs": true,
         "es6": true,
         "node": true
@@ -18,16 +18,16 @@
     "plugins": [
         "react"
     ],
+    "globals": {
+        "React": false,
+        "jQuery": false,
+        "$": false
+    },
     "rules": {
-        "semi": [
-            "error",
-            "always"
-        ],              
-        "no-debugger": "error",//不允许用debugger这个关键字
-        "no-dupe-args": "error",//不允许函数参数同名
-        "no-caller": "error",//不允许用callee等，es6严格模式不支持
-        "no-unmodified-loop-condition": "error",
-        "no-with": "error",//不允许用with来声明
-        "no-catch-shadow": "error"
+        "no-dupe-keys": "off",
+        "no-var": "off",
+        "complexity": "off",
+        "indent": "off"
+        
     }
 }

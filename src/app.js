@@ -15,20 +15,16 @@ import store from '../src/config/Store.jsx';
 import "./less/less.less";
 
 
-// axios.defaults.baseURL = "http://192.168.81.43:8063/api/intellif/";      // 龙岗万科后台
-// axios.defaults.baseURL = "http://192.168.81.43:8064/api/intellif/";      // 龙岗万科后台
-// axios.defaults.baseURL = "http://192.168.81.43:8065/api/intellif/";      // 龙岗万科后台2
-// axios.defaults.baseURL = "http://190.35.194.198:8063/api/intellif/";     // 南山视频专网后台
 axios.defaults.baseURL = "http://localhost:8100";                        // 测试模拟后台
 
 // 无任何操作，30分钟后退出登录
 let timer = setTimeout(() => {
-    window.location.href('http://192.168.81.26:8066');
+    window.location.href('http://www.baidu.com');
 }, 1800000);
 document.addEventListener('click',function(){
     clearTimeout(timer);
     timer = setTimeout(() => {
-        window.location.href = 'http://192.168.81.26:8066';
+        window.location.href = 'http://www.baidu.com';
     }, 1800000);
 });
 
