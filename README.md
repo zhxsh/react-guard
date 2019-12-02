@@ -16,7 +16,7 @@ npm run start
 
 ## 项目预览 ##
 
-[spmj.zhangxiaosheng.top](http://spmj.zhangxiaosheng.top)
+[spmj.zhangxiaosheng.top](http://spmj.zhangxiaosheng.top?_blank)
 
 
 
